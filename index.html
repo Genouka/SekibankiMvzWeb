@@ -89,3 +89,14 @@ a {
 <p>本网站由<a href="https://space.bilibili.com/3493116076100126">秋冥散雨_GenOuka</a>维护，未经允许不可摘编。</p>
 <p>本网站的赤蛮奇图片是东方Project的同人作品，作者是<a href="https://space.bilibili.com/3493116076100126">秋冥散雨_GenOuka</a>，未经允许不可使用。</p>
 <script defer src="https://status.genouka.top/script.js" data-website-id="fcac57f6-6c68-420e-a63a-c3fdbd63f160"></script>
+<script type="text/javascript">
+  (() => {
+    const name = 'outbound-link-click';
+    document.querySelectorAll('a').forEach(a => {
+      if (a.host !== window.location.host && !a.getAttribute('data-umami-event')) {
+        a.setAttribute('data-umami-event', name);
+        a.setAttribute('data-umami-event-url', a.href);
+      }
+    });
+  })();
+</script>
