@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "language": "en",
+    "title": "Sekibanki MVZ2 Resource Hub",
+    "logo_img": "/sekibanki_mvz2.webp",
+    "logo_alt": "Sekibanki MVZ2 Site",
+    "last_updated": "March 4, 2026"
+  },
+  "header": {
+    "description": "Minecraft VS Zombies 2 (MVZ2) is a fan-made game created solely by Cuerzor58, combining elements from Minecraft, Plants vs. Zombies, and the Touhou Project series. This site provides official links, download links, and official group links for various original and modified versions of MVZ2.",
+    "heading": "Sekibanki MVZ2 Resource Hub",
+    "other_lang_text": "",
+    "other_lang_link": { "text": "中文版本(Chinese, always updated firstly)", "href": "/" },
+    "trust_notice": "All links on this site are trusted official links.",
+    "sub_page": { "text": "Game Guide (Under Construction) (Chinese only currently)", "href": "/gaming_guide.html", "label": "Sub-page: " },
+    "contributing_link": { "text": "Contributing Guide", "href": "/contributing.html" }
+  },
+  "version_table": {
+    "title": "Version Index Table",
+    "headers": ["Name", "Links", "Notes"],
+    "rows": [
+      {
+        "name": "Original [GMS/Unity]",
+        "links": [
+          { "text": "Baidu Netdisk (Cuerzor58)", "href": "https://pan.baidu.com/s/1L8IQaDCK7w6PgAV3HLIAvA?pwd=MVZ2" },
+          { "text": "Quark Netdisk (Cuerzor58)", "href": "https://pan.quark.cn/s/0b2386254069" },
+          { "text": "itch.io (Cuerzor58) [May require VPN]", "href": "https://cuerzor.itch.io/mvz2" },
+          { "text": "Bilibili (Cuerzor58)", "href": "https://space.bilibili.com/348514" },
+          { "text": "Afdian (Cuerzor58)", "href": "https://afdian.com/album/f46fe188f7ed11efbbd552540025c377" },
+          { "text": "Original Wiki (Nobody1570)", "href": "https://minecraftvszombies2.wiki.gg/zh/" },
+          { "text": "Original Wiki Exchange Group (新概念论士)", "href": "https://qm.qq.com/q/rupGs1w7o4" }
+        ],
+        "note": "The original author of MVZ2 is Cuerzor58; the cloud drive links contain both the old GMS version and the new Unity version"
+      },
+      {
+        "name": "Original (v0.14.0 Splash Screen Fix) [GMS]",
+        "links": [
+          { "text": "Bilibili Video", "href": "https://www.bilibili.com/video/BV1EpqrBuE6e/" },
+          { "text": "123 Cloud Drive", "href": "https://www.123865.com/s/MRRFjv-Nc0H?pwd=iCAC" },
+          { "text": "Baidu Netdisk", "href": "https://pan.baidu.com/s/1zIAGNNbwFkKrue1hLUOw5A?pwd=1145" }
+        ],
+        "note": "Fix author: <a href=\"https://space.bilibili.com/3493116076100126\">秋冥散雨_GenOuka</a>"
+      },
+      {
+        "name": "v0.15.2+ Mod [GMS]",
+        "links": [
+          { "text": "Official Group (159464768)", "href": "https://qm.qq.com/q/dbOSUa6KuQ" },
+          { "text": "Bilibili (附魔Fumo_)", "href": "https://space.bilibili.com/2094976390" },
+          { "text": "Google Drive (超级火柴人) [Outdated] [Requires VPN]", "href": "https://drive.google.com/drive/folders/1MFpGbFBYZBnoIb4dD855SGESvwawLDRh" }
+        ],
+        "note": "Closed beta; has mobile port*"
+      },
+      {
+        "name": "Recycle Mod [GMS]",
+        "links": [
+          { "text": "Official Group (1072538706)", "href": "https://qm.qq.com/q/pX7nsiMRPM" },
+          { "text": "Bilibili (Test_0907)", "href": "https://space.bilibili.com/3493131756506042" },
+          { "text": "Google Drive (超级火柴人) [Outdated] [Requires VPN]", "href": "https://drive.google.com/file/d/1kj0JoEPKUkxWmPEZHjZrbEq1hgUGr95S" }
+        ],
+        "note": "Reset multiple times; all versions have mobile ports*"
+      },
+      {
+        "name": "Disorder Mod [GMS]",
+        "links": [
+          { "text": "Official Group (1074294731)", "href": "https://qm.qq.com/q/Y6bwQWdL08" },
+          { "text": "Bilibili (苹颂果)", "href": "https://space.bilibili.com/598687298" }
+        ],
+        "note": "Has mobile port*"
+      },
+      {
+        "name": "Unknown Mod [GMS]",
+        "links": [
+          { "text": "Official Group (1074294731)", "href": "https://qm.qq.com/q/Y6bwQWdL08" },
+          { "text": "Bilibili (古明地凌)", "href": "https://space.bilibili.com/3494355581012111" }
+        ],
+        "note": "Discontinued; has mobile port*"
+      },
+      {
+        "name": "Purgatory Mod [GMS]",
+        "links": [
+          { "text": "Official Group (1041235412)", "href": "https://qm.qq.com/q/9swlzQomKk" },
+          { "text": "Bilibili (Rebirthofmogic)", "href": "https://space.bilibili.com/7279681" },
+          { "text": "Google Drive (超级火柴人) [Outdated] [Requires VPN]", "href": "https://drive.google.com/file/d/1DJMMsKe1hQts5zFiEjqppgL2CFbAYSOQ" }
+        ],
+        "note": "Has mobile port*"
+      },
+      {
+        "name": "Rainbow Mod [GMS]",
+        "links": [
+          { "text": "Official Group (982459963)", "href": "https://qun.qq.com/universal-share/share?ac=1&authKey=I3WxDX71%2BSJQrjYItfEOgfUCY%2B%2FKsBjYc2HfwczWui65gXyh2gIvhwkhOtLIU7fq&busi_data=eyJncm91cENvZGUiOiI5ODI0NTk5NjMiLCJ0b2tlbiI6ImJqLytLUGVGVndzWk04N0lBZGFmNnh3TGxBYUpmYnlSQW92aTNSNlVkMGllZTM2Mzh6ME9xZklmWU44TmpCeHciLCJ1aW4iOiIyOTgwMDc3NTQ0In0%3D&data=oN54CGQadKdvts4nEHqD8hRFOMxjL_zQJHOka-3u9jdTFZwpeZdGvieFyylSMuO4kT01K-yUW0P9MD3RMOggzg&svctype=4&tempid=h5_group_info" },
+          { "text": "Bilibili (CH-y煁_PR)", "href": "https://space.bilibili.com/508086286" }
+        ],
+        "note": "Has mobile port*"
+      },
+      {
+        "name": "Different Previous Memories Mod [GMS]",
+        "links": [
+          { "text": "Official Group (1057851419)", "href": "https://qun.qq.com/universal-share/share?ac=1&authKey=%2FhjaflVKmYQ3X308RwQEjcTPW9oVTmkQ8e%2FDK1safYJfN%2FzBy3PcaPQPnDXSc3UW&busi_data=eyJncm91cENvZGUiOiIxMDU3ODUxNDE5IiwidG9rZW4iOiJ0enZsTFZFay9JdlNiNTc2Umt3d0p3K2d2TlJtL3ZyV213b0kxZGV1Y3l1K3FRSGlpeWc2dmNtWURtR24yOXg5IiwidWluIjoiMjk4MDA3NzU0NCJ9&data=mXN2Y3g63wOS6u5yHxw9IJU948d_kPR4oVYHW_LfBsiL2NsUXadrtohykVn5lmfhyMpC2S-xOqko7y20op3bVg&svctype=4&tempid=h5_group_info" },
+          { "text": "Bilibili (三线不爱地三鲜) [Controversial figure]", "href": "https://space.bilibili.com/3546611703613556" },
+          { "text": "Bilibili (the_ender_dragon)", "href": "https://space.bilibili.com/3493076829997403" },
+          { "text": "Google Drive (超级火柴人) [Outdated] [Requires VPN]", "href": "https://drive.google.com/file/d/1EGN_pYtOeVUk0_NYtKA68OJgu4iumlOa" }
+        ],
+        "note": "Discontinued; has mobile port*"
+      },
+      {
+        "name": "Meme Chinese Mod [Flash/Unity/Godot]",
+        "links": [
+          { "text": "Official Group (965643736)", "href": "https://qun.qq.com/universal-share/share?ac=1&authKey=fwiWSFSbyrVujTIgFlIDbYTEN1wyRqxLQI8I9wMohzReK0gAtbf%2F%2B2zgYJWm79eL&busi_data=eyJncm91cENvZGUiOiI5NjU2NDM3MzYiLCJ0b2tlbiI6IlhNa0RvVnNuczY0OEpLdm8yU2hIeDdTc0l0L1R3Q0lMNHlhVnRURFpiRWFmKzlzalJxODhkOVJMUHZrbWZ4bzUiLCJ1aW4iOiIyOTgwMDc3NTQ0In0%3D&data=i-JDN0q58R-fGXx_UULp0zPkPD_l0JDHViPEjct1RPfy1psdX3BqPghnLbJsDhfyc36YNG74Gu4mAR8nwcw-tg&svctype=4&tempid=h5_group_info" },
+          { "text": "Bilibili (lastzating6 Studio)", "href": "https://space.bilibili.com/3546843552155715" }
+        ],
+        "note": "Has official Android version"
+      },
+      {
+        "name": "ExtraMode (Unity) (EXU) Mod [Unity]",
+        "links": [
+          { "text": "Official Group (964829098)", "href": "https://qun.qq.com/universal-share/share?ac=1&authKey=1gxtivMGX5ko%2F7a9k5qHeVWaWPoETufsSskGJ1Rgu0wI9Vb5ymSC7ZIC5GgrCSDQ&busi_data=eyJncm91cENvZGUiOiI5NjQ4MjkwOTgiLCJ0b2tlbiI6Ik1BU3VHUHhBaFo3dmF0enpvUzdiay9JMkplUk1jYzVXSmVKK01QTDJzdGxFb3FaSE1FLzFENzhKaE9iTEZSaVoiLCJ1aW4iOiIyNDAzNzQzMTMxIn0%3D&data=EbHLaThlxwjcRgo-pFvjaNEhdFYkSiVONMJtLvfYmKyao7T7rL7dlZ2JCz0WGOcg1IRpA9DcCnfvBJvonqR5xA&svctype=4&tempid=h5_group_info" },
+          { "text": "Bilibili (the_ender_dragon)", "href": "https://space.bilibili.com/3493076829997403" }
+        ],
+        "note": "Has official Android version"
+      },
+      {
+        "name": "Travel Mod [GMS]",
+        "links": [
+          { "text": "Official Group (1062445537)", "href": "https://qun.qq.com/universal-share/share?ac=1&authKey=RmJNRyrt5O%2FGCVEkTQbDG5EJdflYQQj9UX9Rbtf2RZqE06nKncJntVeh0lD56AxZ&busi_data=eyJncm91cENvZGUiOiIxMDYyNDQ1NTM3IiwidG9rZW4iOiJwdlZkTzdFV1IwdUNaeTFmZWdoWm5IcnIrYzRLVTdZdFJVQituMEF5NzM4dXFKbWtjUE9aRFJYSTU4QlBpSWlnIiwidWluIjoiMjk4MDA3NzU0NCJ9&data=lqLL5HwI0LojkHlwwB5s2PG63Rvbk7Jvn4PAkgQCRBKpOLcEWMBoTkqngnWibulnmAD7wYOEJWCq0xt0YWgkig&svctype=4&tempid=h5_group_info" },
+          { "text": "Bilibili (摆烂の布嘟嘟)", "href": "https://space.bilibili.com/3546573313149656" }
+        ],
+        "note": "Closed beta; currently short on development progress; has mobile port*"
+      },
+      {
+        "name": "Hell Mod [GMS]",
+        "links": [
+          { "text": "Bilibili (Rebirthofmogic)", "href": "https://space.bilibili.com/7279681" },
+          { "text": "Baidu Netdisk (Rebirthofmogic)", "href": "https://pan.baidu.com/s/1WtGWx9lLTCL-Jt-ZoXB4ZA?pwd=d8c2" },
+          { "text": "Google Drive (超级火柴人) [Outdated] [Requires VPN]", "href": "https://drive.google.com/file/d/1iVNDcgygCblPP0e_qlt22d6uDSbBFuxn" }
+        ],
+        "note": "Discontinued, final version 0.13.2; has mobile port*"
+      },
+      {
+        "name": "Hell Remake Mod [Unity]",
+        "links": [
+          { "text": "Bilibili (雪鸢Nonalus)", "href": "https://space.bilibili.com/492155342" },
+          { "text": "GitHub (Reborn5537)", "href": "https://github.com/reborn5537" },
+          { "text": "Official Group 1", "href": "https://qun.qq.com/universal-share/share?ac=1&authKey=5UeIqzx0FSBsAhiXgNaKbKhLav36EJUfLViJ2hEDJ0Meg6wMX%2Bn8phDzfHhYETKJ&busi_data=eyJncm91cENvZGUiOiIyNDE0NzAwNDciLCJ0b2tlbiI6IlFlN2hpeW1RMkw5MDZIem1oTDUrU0luU2RoaFloL2NMd2FwcHpMTWNFczdRRzRTcU9pVXZRQ0FvRXN2VzF1NWEiLCJ1aW4iOiIyOTgwMDc3NTQ0In0%3D&data=EQ1UqaEmsMbIzRRD2GY3tRU7mvglGMc--oHPTYC9LXYMyPMoOSW65T7BgWmDdVZwya_1ndtuVSuUfutHlzJ29A&svctype=4&tempid=h5_group_info" },
+          { "text": "Official Group 2", "href": "https://qun.qq.com/universal-share/share?ac=1&authKey=K5zhfBcvIkbNII8N%2FNN5ERwES6NGRMprV8pIvIHepbsy5OoXH8fU31ti9deatZGR&busi_data=eyJncm91cENvZGUiOiIxMDQ5NTM3Njk1IiwidG9rZW4iOiIrVFJCVjYwUHFvajBhcEFBcE8zaVhHQ0N6MHpaSUdJYTNQRXFNZnBIbm1WRnp4WTRja1A1SzU5Q3ovMFh3dzBzIiwidWluIjoiMjk4MDA3NzU0NCJ9&data=Nl0-cGtpyiyTM-O0jN52ci_1nWgrpqLjEqh8vzXEUZWIVtP88i7b5EaPgJwJgv5aNitfQIfAxgvhx1fUanl3Cw&svctype=4&tempid=h5_group_info" },
+          { "text": "Google Drive (超级火柴人) [Outdated] [Requires VPN]", "href": "https://drive.google.com/drive/folders/1NY6pYZGj_tip1uOdAr1OjVrbXozDvfJN" }
+        ],
+        "note": "Discontinued, final version 0.6beta1; has official Android version"
+      },
+      {
+        "name": "Co-op Glory Mod [GMS]",
+        "links": [
+          { "text": "Official Group", "href": "https://qun.qq.com/universal-share/share?ac=1&authKey=ckrH%2F3Bg%2F8hNNLbUecvLlfznvvkS2%2F6%2Fau26lNytIAqAoviEi2itTFKfXQ1VctPx&busi_data=eyJncm91cENvZGUiOiIxMDUzNDk1MjE4IiwidG9rZW4iOiI3ZjBkTFNGaDlRL1ZJU3o5RGpBOFl6MnRGenhFdFlpTVNCZ2tveHgxcUU0NFBtS2RMS21WMlY1ejZuOVZXUFhoIiwidWluIjoiMjk4MDA3NzU0NCJ9&data=TXqMeJTNIk9fxX1nQGAfSA9cdSW3h7NybeymVidtZTgzjPUzi0vWqkVfX5SlPqPo050m2lWHxB17HY8whotsBA&svctype=4&tempid=h5_group_info" },
+          { "text": "Bilibili (黑导游戏)", "href": "https://space.bilibili.com/474509572" }
+        ],
+        "note": "Has mobile port*"
+      },
+      {
+        "name": "Ordinary Mod [GMS/Unity]",
+        "links": [
+          { "text": "Official Group", "href": "https://qm.qq.com/q/kMJsjg2mT6" },
+          { "text": "Baidu Netdisk (生气字)", "href": "https://pan.baidu.com/s/16wmnRfQgVjYRT5ghCX6meQ?pwd=gitp" },
+          { "text": "Bilibili (生气字)", "href": "https://space.bilibili.com/422524980" }
+        ],
+        "note": "Has mobile port*"
+      },
+      {
+        "name": "EXPAND Mod (EXP) [GMS/Unity]",
+        "links": [
+          { "text": "Official Group 2", "href": "https://qm.qq.com/q/XORZeoxWQ8" },
+          { "text": "Official Group 3", "href": "https://qm.qq.com/q/ifPzT1hwA0" },
+          { "text": "Bilibili (新概念论士)", "href": "https://space.bilibili.com/123694481" },
+          { "text": "Official Wiki (新概念论士)", "href": "https://mvz2expand.wiki.gg/zh/" },
+          { "text": "Baidu Netdisk (新概念论士)", "href": "https://pan.baidu.com/s/1-vynjbys73QP91N6_BBTkQ?pwd=EXP0" },
+          { "text": "Quark Netdisk (新概念论士)", "href": "https://pan.quark.cn/s/8b6396667f09" },
+          { "text": "Google Drive (新概念论士) [Requires VPN]", "href": "https://drive.google.com/drive/folders/1Vlv5rEYil3jo7Pu3XEvcXRPytkDF_ml0" }
+        ],
+        "note": "Has mobile port*"
+      },
+      {
+        "name": "Roguelike Mod [GMS]",
+        "links": [
+          { "text": "Google Drive [Requires VPN]", "href": "https://drive.google.com/file/d/1SGXeMRJhIKiQRtyAoIPXjZD4jh8uwg5g" }
+        ],
+        "note": ""
+      },
+      {
+        "name": "EXTRA MODE Mod [GMS]",
+        "links": [
+          { "text": "Official Group", "href": "https://qm.qq.com/q/ktRqoe4RxK" },
+          { "text": "Bilibili (正邪の老鼠)", "href": "https://space.bilibili.com/56354274" },
+          { "text": "Official Wiki", "href": "https://mvz2extra.fandom.com/zh/wiki/MVZ2EXTRA_Wiki" }
+        ],
+        "note": "Has mobile port*"
+      },
+      {
+        "name": "JQ Mod [GMS]",
+        "links": [
+          { "text": "Official Group 1", "href": "https://qm.qq.com/q/RWxHQV0wc6" },
+          { "text": "Official Group 2", "href": "https://qm.qq.com/q/znS0tM5pAG" },
+          { "text": "Bilibili (喜欢藿藿的龙玲安)", "href": "https://space.bilibili.com/671240960" },
+          { "text": "Bilibili (喜欢小碗的龙玲儿) [Alt Account]", "href": "https://space.bilibili.com/3546721474841356" }
+        ],
+        "note": "Closed beta; has mobile port*"
+      },
+      {
+        "name": "Hell Expansion (HEX) Mod [GMS]",
+        "links": [
+          { "text": "Official Group", "href": "http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Fi5UKGYtWZkZvltWiZEXKmTtuChRkt2W&authKey=n3xB2a%2FNe4SxZ1EE%2F5G0F4ofoPKJNU%2BXHp9b9GtlQGgFkdS3h11U9k6b%2FhU21L%2Fe&noverify=0&group_code=786881743" },
+          { "text": "Baidu Netdisk (雨水-小天)", "href": "https://pan.baidu.com/s/1LtBnmHQtVA1e2081xFAtVw?pwd=rjxq" },
+          { "text": "Bilibili (雨水-小天)", "href": "https://space.bilibili.com/1494060021" },
+          { "text": "Google Drive (超级火柴人) [Outdated] [Requires VPN]", "href": "https://drive.google.com/file/d/1mq4RfdRVRZaWcEEmLUPLzT7VsULRrnJK" }
+        ],
+        "note": "Has mobile port*"
+      },
+      {
+        "name": "SQS Mod [GMS]",
+        "links": [
+          { "text": "Official Group", "href": "https://qun.qq.com/universal-share/share?ac=1&authKey=W%2F5CjnkTRroM0Rpat8XxmAw8kmugw0K%2BBUX64Q8UA1BQWt2FDAEea9a8FXC1%2FvrN&busi_data=eyJncm91cENvZGUiOiI5NjU5MzQ1NzkiLCJ0b2tlbiI6IjNDSWVrcWtoRUxraDJpci9ZZHUxV2hiMk1LQWdFdk52c1BSc3IzcG9EdjZaaVhGckdmQVNtdGVaYkoreGVEU0wiLCJ1aW4iOiIyOTgwMDc3NTQ0In0%3D&data=wAu18Dg1w2eKJXreABsVF5rBO-ZRoVtsQsuSm9S42BgmrKzeqB6R8ouyrN50PcmFTaNnUqjAfU4Z4Hk1aPGtwA&svctype=4&tempid=h5_group_info" },
+          { "text": "Bilibili (圣骑士_Frank)", "href": "https://space.bilibili.com/3494351346862117" }
+        ],
+        "note": "Discontinued; has mobile port*"
+      },
+      {
+        "name": "Sabi Mod [GMS]",
+        "links": [
+          { "text": "Official Group", "href": "https://qun.qq.com/universal-share/share?ac=1&authKey=z2HsG9Q4gpW56mXeySVkNUtqdoYrOGyqOHXQ3zQDaaMdahADBqEUtUMUR35TPE6b&busi_data=eyJncm91cENvZGUiOiI3NTgxNjcyNzMiLCJ0b2tlbiI6Ik1ETXNYTE5sL01rU3FOdk1rYVF2K2FDVlpLd1FZMVE5eEY5dWZoUTJOZzMvV0d5YjYzMno4cVdwMVIwbHppVE8iLCJ1aW4iOiIyOTgwMDc3NTQ0In0%3D&data=KPoebQ0kAO1OD0LiysFJKFxslQAqUhN3SeVH-n5TfcDyPkb7QHut1bwhq_rU_2FQTqGJfeJAlFBtXu_Y9_FyvA&svctype=4&tempid=h5_group_info" },
+          { "text": "Bilibili (玛吉雅葡萄MagiaGrape)", "href": "https://space.bilibili.com/480865476" }
+        ],
+        "note": "Discontinued, download available only in official group"
+      },
+      {
+        "name": "Unnamed Mod [GMS] [Controversial]",
+        "links": [
+          { "text": "Bilibili (反逆者-Reverser)", "href": "https://space.bilibili.com/436865098" }
+        ],
+        "note": "<a href=\"https://space.bilibili.com/1145188753\">Bilibili (星の忌み) [Controversial figure]</a> served as former planner with related negative impact incidents; see <a href=\"https://b23.tv/CBTAXex\">this video</a> for more details. Formerly known as TX Mod. Discontinued; not suitable for minors; has mobile port*",
+        "extra_text": "More information to be added after proper handling by the author"
+      },
+      {
+        "name": "BM Mod [GMS]",
+        "links": [
+          { "text": "Official Group (1057609248)", "href": "https://qun.qq.com/universal-share/share?ac=1&authKey=9kJbmbWukI%2BK2NH5RM24wJo2FfgtC9fpG6d3bx5cBhVTPHFxJb2CcHk%2F%2FhePMOUI&busi_data=eyJncm91cENvZGUiOiIxMDU3NjA5MjQ4IiwidG9rZW4iOiJDTmN6aThUQ3VkTFBHTXlQTEFWTVpWUTh3L2d2V1d0Rll0cUZid2grRTFpRE5sVXl1dmNBNldobDBvMFI0Yi8yIiwidWluIjoiMjk4MDA3NzU0NCJ9&data=B5p-TwE0Eg_VCJOLsfJm2i3PWSaVCTbNVjckcX1b4GroSPwjoRFKH8z_OtM9T2K-twL5nozjAI1cZRy0WhUNiQ&svctype=4&tempid=h5_group_info" },
+          { "text": "Bilibili", "href": "https://space.bilibili.com/1704840607" }
+        ],
+        "note": "Formerly also known as BH Mod"
+      },
+      {
+        "name": "Echo Mod [GMS] [Controversial]",
+        "links": [
+          { "text": "Bilibili (我是酷柴啊啊啊)", "href": "https://space.bilibili.com/3493110994700633" }
+        ],
+        "note": "<a href=\"https://b23.tv/Zk92BQB\">Art theft controversy incident</a>",
+        "extra_text": "Not yet released, more information to be added after release"
+      },
+      {
+        "name": "Mirror Mod [GMS]",
+        "links": [],
+        "note": "Lost Media",
+        "links_text_only": true
+      }
+    ],
+    "footnote": "English names in parentheses are widely recognized community designations."
+  },
+  "resource_table": {
+    "title": "Common Resources and Reference Sites Index",
+    "headers": ["Website", "Link", "Notes"],
+    "rows": [
+      {
+        "name": "Baidu Tieba",
+        "links": [{ "text": "Visit", "href": "https://tieba.baidu.com/f?kw=mc大战僵尸2&fr=sharewise#/" }],
+        "note": ""
+      },
+      {
+        "name": "Discord Community",
+        "links": [{ "text": "Visit [Requires VPN]", "href": "https://discord.gg/k2RzXX7ND" }],
+        "note": ""
+      },
+      {
+        "name": "Speedrun Community",
+        "links": [{ "text": "Visit [May require VPN in some regions]", "href": "https://www.speedrun.com/zh-CN/mvz2" }],
+        "note": ""
+      },
+      {
+        "name": "秋冥's Gaming Group",
+        "links": [{ "text": "Visit", "href": "https://qun.qq.com/universal-share/share?ac=1&authKey=MyEmo5MFeIpP%2BZCFcUc4PjRwqJkv8%2BxcmrH5PcsnpdGqMazI29lMuPraMs3FJ20D&busi_data=eyJncm91cENvZGUiOiIxMDU4NDk1ODQ0IiwidG9rZW4iOiJJZ0RqbVFodGUzR294aVZVNlFlMXlScTNoelhSN2JVY1M4TjNWZkFHK0ZSc2Y2d0gzZEF2Z2x0OG1tb2IrWFg0IiwidWluIjoiMjk4MDA3NzU0NCJ9&data=hphror79Iz9kpjyq4X-3xRaf9J6L_CaiyjM-Xe6dT-QwDen26AQRwxbOWbs5yY_DrYRLu29fLnp6_877e_LCZQ&svctype=4&tempid=h5_group_info" }],
+        "note": "High entry barrier; includes MVZ2 mobile port resources"
+      },
+      {
+        "name": "Mobile Port Source Verification",
+        "links": [{ "text": "Visit", "href": "https://genouka.top/sign/" }],
+        "note": ""
+      }
+    ]
+  },
+  "footnotes": {
+    "title": "Footnotes",
+    "items": [
+      {
+        "label": "* Mobile Ports",
+        "content": "In March 2025, <a href=\"https://space.bilibili.com/34627290\">沐白_official</a> created mobile ports of the Extra Mod, Expand (GMS) Mod, and v0.14.0 project (GM2.3), which contained numerous bugs. He is no longer involved in MVZ2 porting.<br>After June 2025, <a href=\"https://space.bilibili.com/3493116076100126\">秋冥散雨_GenOuka</a> took over the mobile port updates for the v0.15.2+ Mod and began porting work for all other mods. Now almost all GMS mods have corresponding mobile ports.<br>These ported versions can be downloaded from 秋冥散雨's QQ Group (1058495844), 附魔Fumo_'s QQ Group (159464768), the respective mod's official QQ Group (see table), or the Discord Community (see table) (generally available in all three groups; if the mod is in closed beta, only the official group will have it)."
+      },
+      {
+        "label": "What \"Requires VPN\" Means",
+        "content": "Mainland China has gateway firewalls between provinces and at entry/exit points, so if you are in mainland China, you may need special means to access certain restricted websites. Due to legal and policy requirements, details on this cannot be provided."
+      }
+    ],
+    "disclaimer": "All rankings in the above tables are in no particular order."
+  },
+  "footer": {
+    "maintainer_text": "This website is maintained and updated long-term by <a href=\"https://space.bilibili.com/3493116076100126\">秋冥散雨_GenOuka</a>. Unauthorized reproduction is prohibited. If you find any errors, omissions, or information updates, please contact me for corrections. You can view my other public projects <a href=\"https://genouka.top/\">here</a>.",
+    "logo_notice": "The Sekibanki logo image on this site is an original work by <a href=\"https://space.bilibili.com/3493116076100126\">秋冥散雨_GenOuka</a>, a derivative work of the Touhou Project, and may not be used elsewhere without the author's permission.",
+    "analytics_notice": "This site collects anonymous statistics through a self-hosted Umami service. You can view public data <a href=\"https://status.genouka.top/share/bKQB23YKEK6RKBZM\">here</a>",
+    "analytics_color": "mediumpurple",
+    "badge_img": "https://genouka.top/suptcycle.png",
+    "badge_alt": "秋冥 Project Maintenance Cycle",
+    "badge_link": "https://genouka.top/",
+    "github_url": "https://github.com/Genouka/SekibankiMvzWeb",
+    "github_text": "GitHub"
+  }
+}

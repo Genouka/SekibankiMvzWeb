@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "language": "zh-cn",
+    "title": "赤蛮奇MVZ2资源集中站 - 游戏攻略",
+    "logo_img": "sekibanki_mvz2.webp",
+    "logo_alt": "Sekibanki MVZ2 Site",
+    "last_updated": "2026年2月7日"
+  },
+  "header": {
+    "breadcrumb": { "text": "改版索引", "href": "/" },
+    "breadcrumb_current": "游戏攻略",
+    "construction_notice": "目前该页面尚在建设中...",
+    "heading": "MVZ2游戏攻略"
+  },
+  "table": {
+    "headers": ["名称", "链接", "备注"],
+    "rows": [
+      {
+        "name": "0.15.2+改版",
+        "links": [{ "text": "全流程(AB何某轩)", "href": "https://space.bilibili.com/3493085927442607/lists/6344518" }],
+        "note": ""
+      },
+      {
+        "name": "Recycle改版",
+        "links": [
+          { "text": "未重置版:全流程实况(Alina丶Gray等)", "href": "https://bilibili.com/BV1gwN8zwEJA" },
+          { "text": "重制版:最高难度禁制品全流程(狂风就得带暴雨)", "href": "https://bilibili.com/BV1Leq1B7Eaq" },
+          { "text": "未重置版移植版:HARD难度全流程(屑命令方块)", "href": "https://bilibili.com/BV1RwxuzAEd2" },
+          { "text": "未重制版移植版:禁星全流程(AB何某轩)", "href": "https://space.bilibili.com/3493085927442607/lists/6675144" },
+          { "text": "未重置版/重制版移植版:全流程(AB何某轩)", "href": "https://space.bilibili.com/3493085927442607/lists/6821547" }
+        ],
+        "note": ""
+      }
+    ]
+  },
+  "footer": {
+    "maintainer_text": "本网站由<a href=\"https://space.bilibili.com/3493116076100126\">秋冥散雨_GenOuka</a>长期维护更新，未经允许不可摘编，如发现有错漏或信息更新请联系我修改。",
+    "logo_notice": "本网站赤蛮奇标志图片是<a href=\"https://space.bilibili.com/3493116076100126\">秋冥散雨_GenOuka</a>的原创作品，系东方Project的同人二次创作，未经作者允许不可使用于他处。",
+    "analytics_notice": "本站通过自建Umami服务收集匿名统计信息，你可以在<a href=\"https://status.genouka.top/share/bKQB23YKEK6RKBZM\">这里</a>查阅公开数据",
+    "analytics_color": "mediumpurple"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "language": "zh-cn",
+    "title": "赤蛮奇MVZ2资源集中站 - 贡献指南"
+  },
+  "header": {
+    "breadcrumb": { "text": "返回首页", "href": "/" },
+    "heading": "贡献指南"
+  },
+  "sections": [
+    {
+      "title": "如何贡献条目",
+      "items": [
+        {
+          "subtitle": "方式一：直接编辑 JSON（推荐）",
+          "content": "<ol><li>Fork 本仓库</li><li>编辑 <code>data/</code> 目录下对应的 JSON 文件</li><li>本地运行 <code>python tool/gen.py</code> 生成 HTML 并预览</li><li>提交 Pull Request</li></ol>"
+        },
+        {
+          "subtitle": "方式二：提交 Issue",
+          "content": "在 GitHub Issues 页面提交新增条目的名称、链接、备注，或修改现有条目的错误信息。"
+        }
+      ]
+    },
+    {
+      "title": "JSON 数据格式",
+      "content": "在 <code>version_table.rows</code> 中新增一个条目，格式如下：<pre><code>{\n  \"name\": \"改版名称[引擎]\",\n  \"links\": [\n    { \"text\": \"链接显示文字\", \"href\": \"https://example.com\" },\n    { \"text\": \"另一个链接\", \"href\": \"https://example2.com\" }\n  ],\n  \"note\": \"备注信息，支持&lt;a href=\\\"...\\\"&gt;HTML&lt;/a&gt;\"\n}</code></pre>"
+    },
+    {
+      "title": "字段说明",
+      "content": "<table border=\"1\" cellspacing=\"0\" cellpadding=\"6\"><tr><th>字段</th><th>必填</th><th>说明</th></tr><tr><td><code>name</code></td><td>是</td><td>改版名称，建议附带引擎标识如 <code>[GMS]</code>、<code>[Unity]</code></td></tr><tr><td><code>links</code></td><td>是</td><td>链接数组，每项含 <code>text</code> 和 <code>href</code></td></tr><tr><td><code>note</code></td><td>否</td><td>备注信息，支持 HTML 标签</td></tr><tr><td><code>extra_text</code></td><td>否</td><td>链接列额外文字（纯文本）</td></tr><tr><td><code>links_text_only</code></td><td>否</td><td>若为 <code>true</code>，则 <code>note</code> 内容显示在链接列，备注列留空</td></tr></table>"
+    },
+    {
+      "title": "注意事项",
+      "content": "<ul><li>所有链接必须是官方可信链接</li><li>涉及争议内容的条目需在 <code>name</code> 或 <code>note</code> 中标注 <code>[争议]</code></li><li>已停更的改版需在 <code>note</code> 中注明</li><li>中文版为首先更新的版本，英文版可随后同步</li></ul>"
+    }
+  ],
+  "footer": {
+    "github_url": "https://github.com/Genouka/SekibankiMvzWeb",
+    "github_text": "GitHub 仓库",
+    "contribute_text": "欢迎通过 Pull Request 或 Issue 贡献条目和信息更新！"
+  }
+}
