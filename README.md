@@ -2,7 +2,7 @@
 
 MVZ2（Minecraft VS Zombies 2）各原版和改版的官方链接、下载链接和官方群链接的集中站。
 
-网站地址：[https://genouka.top/](https://genouka.top/)
+网站地址：[https://sekibanki.genouka.top/](https://sekibanki.genouka.top/)
 
 ## 项目结构
 
