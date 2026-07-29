@@ -4,7 +4,7 @@
     "title": "赤蛮奇MVZ2资源集中站",
     "logo_img": "/sekibanki_logo_trans.webp",
     "logo_alt": "Sekibanki MVZ2 Site",
-    "last_updated": "2026年7月21日"
+    "last_updated": "2026年7月29日"
   },
   "header": {
     "description": "MC大战僵尸2（Minecraft VS Zombies 2，简称MVZ2）是一款由作者Cuerzor58一人所制作的一款《Minecraft》、《植物大战僵尸》和《东方Project》系列的同人游戏。本站提供MVZ2各原版和改版的官方链接、下载链接和官方群的链接。",
@@ -73,7 +73,14 @@
           { "text": "官方群（1074294731）", "href": "https://qm.qq.com/q/Y6bwQWdL08" },
           { "text": "B站(古明地凌)", "href": "https://space.bilibili.com/3494355581012111" }
         ],
-        "note": "已停更；有移植版*"
+        "note": "有移植版*"
+      },
+      {
+        "name": "Eternity Mode改版[GMS]",
+        "links": [
+          { "text": "官方群（874503705）", "href": "https://qun.qq.com/universal-share/share?ac=1&authKey=76bAEdOoBbJ15M7w4LzGUG%2F%2Fbi6S5yc3XyS4LmZ53Fb13w9WLy7GpNLsodMAZPSo&busi_data=eyJncm91cENvZGUiOiI4NzQ1MDM3MDUiLCJ0b2tlbiI6IjhyN3BpUUU0U0RoV2ErMGVaZXpUbjV4NnNkRzRYYzBSaG5kZDZDQWx0U0ZMVFIyZlU2dHVjNFVOS1JrVUxrLzgiLCJ1aW4iOiIyOTgwMDc3NTQ0In0%3D&data=IS-rUH9PzMX-p7SM4fP8qiCDe-2v-n3CeEgyZfNXQ6lAuV_6CFFnKgDovMnW5MgQXPC9bY1Q9PiZ-h7TvD9aiQ&svctype=4&tempid=h5_group_info" },
+        ],
+        "note": "有移植版*"
       },
       {
         "name": "炼狱(Purgatory)版改版[GMS]",
