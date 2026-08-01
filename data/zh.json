@@ -4,7 +4,7 @@
     "title": "赤蛮奇MVZ2资源集中站",
     "logo_img": "/sekibanki_logo_trans.webp",
     "logo_alt": "Sekibanki MVZ2 Site",
-    "last_updated": "2026年7月29日"
+    "last_updated": "2026年8月1日"
   },
   "header": {
     "description": "MC大战僵尸2（Minecraft VS Zombies 2，简称MVZ2）是一款由作者Cuerzor58一人所制作的一款《Minecraft》、《植物大战僵尸》和《东方Project》系列的同人游戏。本站提供MVZ2各原版和改版的官方链接、下载链接和官方群的链接。",
@@ -189,8 +189,7 @@
       {
         "name": "EXPAND版(EXP)改版[GMS/Unity]",
         "links": [
-          { "text": "官方2群", "href": "https://qm.qq.com/q/XORZeoxWQ8" },
-          { "text": "官方3群", "href": "https://qm.qq.com/q/ifPzT1hwA0" },
+          { "text": "官方审核群", "href": "https://qun.qq.com/universal-share/share?ac=1&svctype=5&tempid=h5_group_info&busi_data=eyJncm91cENvZGUiOiI5NjYzNzIzMDkifQ%3D%3D" },
           { "text": "B站(新概念论士)", "href": "https://space.bilibili.com/123694481" },
           { "text": "官方Wiki(新概念论士)", "href": "https://mvz2expand.wiki.gg/zh/" },
           { "text": "百度网盘(新概念论士)", "href": "https://pan.baidu.com/s/1-vynjbys73QP91N6_BBTkQ?pwd=EXP0" },
