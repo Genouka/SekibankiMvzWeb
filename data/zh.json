@@ -4,7 +4,7 @@
     "title": "赤蛮奇MVZ2资源集中站",
     "logo_img": "/sekibanki_logo_trans.webp",
     "logo_alt": "Sekibanki MVZ2 Site",
-    "last_updated": "2026年8月1日"
+    "last_updated": "2026年8月19日"
   },
   "header": {
     "description": "MC大战僵尸2（Minecraft VS Zombies 2，简称MVZ2）是一款由作者Cuerzor58一人所制作的一款《Minecraft》、《植物大战僵尸》和《东方Project》系列的同人游戏。本站提供MVZ2各原版和改版的官方链接、下载链接和官方群的链接。",
@@ -42,13 +42,13 @@
         "note": "修复作者：<a href=\"https://space.bilibili.com/3493116076100126\">秋冥散雨_GenOuka</a>"
       },
       {
-        "name": "0.15.2+改版[GMS]",
+        "name": "0.15.2+/Beta 改版[GMS]",
         "links": [
           { "text": "官方群（159464768）", "href": "https://qm.qq.com/q/dbOSUa6KuQ" },
           { "text": "B站(附魔Fumo_)", "href": "https://space.bilibili.com/2094976390" },
           { "text": "谷歌云盘(超级火柴人)[更新滞后][大陆地区无法访问]", "href": "https://drive.google.com/drive/folders/1MFpGbFBYZBnoIb4dD855SGESvwawLDRh" }
         ],
-        "note": "内测；有移植版*"
+        "note": "内测；有移植版*；先后有称呼0.15.2、0.15.3、0.16.0、0.17.0均指该版本。"
       },
       {
         "name": "Recycle版改版[GMS]",
@@ -200,9 +200,20 @@
       },
       {
         "name": "Rougelike改版[GMS]",
-        "links": [],
-        "note": "仅有外网链接，请查看英文版面",
-        "links_text_only": true
+        "links": [
+          { "text": "油管链接[大陆地区无法访问]", "href": "https://www.youtube.com/channel/UCE03RLrwFBEcCsNS5G5hIxA"},
+          { "text": "谷歌云盘[大陆地区无法访问]", "href": "https://drive.google.com/file/d/1SGXeMRJhIKiQRtyAoIPXjZD4jh8uwg5g"}
+        ],
+        "note": "外国作者 cpiyaphum",
+        "links_text_only": false
+      },
+      {
+        "name": "鸭子(Duck)改版[Unity]",
+        "links": [
+          { "text": "谷歌云盘[大陆地区无法访问]", "href": "https://drive.google.com/file/d/1LyN0r_JZAhpOzjaMdB-FxK0XzlopOCi_"}
+        ],
+        "note": "外国作者 ahiru_rs；有官方 Android 版本",
+        "links_text_only": false
       },
       {
         "name": "EXTRA MODE改版[GMS]",
@@ -221,7 +232,7 @@
           { "text": "B站(喜欢藿藿的龙玲安)", "href": "https://space.bilibili.com/671240960" },
           { "text": "B站(喜欢小碗的龙玲儿)[小号]", "href": "https://space.bilibili.com/3546721474841356" }
         ],
-        "note": "内测；有移植版*"
+        "note": "已停更；内测；有移植版*"
       },
       {
         "name": "地狱拓展版(HEX)改版[GMS]",
@@ -249,7 +260,7 @@
         "note": "已停更，下载仅限官方群"
       },
       {
-        "name": "暂未命名改版[GMS][争议]",
+        "name": "天星版[GMS][争议]",
         "links": [
           { "text": "B站(反逆者-Reverser)", "href": "https://space.bilibili.com/436865098" }
         ],
