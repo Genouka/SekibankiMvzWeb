@@ -4,7 +4,7 @@
     "title": "赤蛮奇MVZ2资源集中站",
     "logo_img": "/sekibanki_logo_trans.webp",
     "logo_alt": "Sekibanki MVZ2 Site",
-    "last_updated": "2026年8月19日"
+    "last_updated": "2026年8月21日"
   },
   "header": {
     "description": "MC大战僵尸2（Minecraft VS Zombies 2，简称MVZ2）是一款由作者Cuerzor58一人所制作的一款《Minecraft》、《植物大战僵尸》和《东方Project》系列的同人游戏。本站提供MVZ2各原版和改版的官方链接、下载链接和官方群的链接。",
@@ -111,10 +111,18 @@
         "note": "已停更；有移植版*"
       },
       {
-        "name": "失衡版[GMS]",
+        "name": "失衡版[GMS/Unity]",
         "links": [
           { "text": "官方群（1056341015）", "href": "https://qm.qq.com/q/VDjHe1Sjug" },
           { "text": "B站(20086lr)", "href": "https://space.bilibili.com/455499143" }
+        ],
+        "note": "GMS版本有移植版*；Unity版本有官方 Android 版本"
+      },
+      {
+        "name": "3版/3g版[GMS]",
+        "links": [
+          { "text": "官方改版群（1077607284）", "href": "https://qm.qq.com/q/AWcFeEUwEg" },
+          { "text": "官方聊天群（1077607284）", "href": "https://qm.qq.com/q/dMUiGtpYKA" }
         ],
         "note": "有移植版*"
       },
@@ -315,7 +323,7 @@
     "items": [
       {
         "label": "* 移植版",
-        "content": "2025年3月，<a href=\"https://space.bilibili.com/34627290\">沐白_official</a>制作了Extra改版、Expand(GMS)改版、0.14.0工程(GM2.3)的移植版，存在较多bug，现他已不参与MVZ2移植。<br>2025年6月之后，<a href=\"https://space.bilibili.com/3493116076100126\">秋冥散雨_GenOuka</a>接手了0.15.2+改版的移植更新，并开始了对其他所有改版的移植工作。现在绝大部分GMS改版都有相应的移植版。<br>这些移植版本可以在秋冥散雨的QQ群（1058495844）、附魔Fumo_的QQ群（159464768）、对应改版的官方QQ群（见表格）、Discord社区（见表格）（一般三个群都有，如果该改版在内测就只有官方群会有，其他两个群不会有）下载。"
+        "content": "2025年3月，<a href=\"https://space.bilibili.com/34627290\">沐白_official</a>制作了Extra改版、Expand(GMS)改版、0.14.0工程(GM2.3)的移植版，存在较多bug，现他已不参与MVZ2移植。<br>2025年6月之后，<a href=\"https://space.bilibili.com/3493116076100126\">秋冥散雨_GenOuka</a>接手了0.15.2+改版的移植更新，并开始了对其他所有改版的移植工作。现在绝大部分GMS改版都有相应的移植版。<br>这些移植版本可以在对应改版的官方QQ群（见表格）、Discord社区（见表格）下载，秋冥会不定期跟进改版的最新版本的移植版。"
       }
     ],
     "disclaimer": "以上表格排名均不分先后。"
