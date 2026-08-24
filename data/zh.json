@@ -4,7 +4,7 @@
     "title": "赤蛮奇MVZ2资源集中站",
     "logo_img": "/sekibanki_logo_trans.webp",
     "logo_alt": "Sekibanki MVZ2 Site",
-    "last_updated": "2026年8月21日"
+    "last_updated": "2026年8月24日"
   },
   "header": {
     "description": "MC大战僵尸2（Minecraft VS Zombies 2，简称MVZ2）是一款由作者Cuerzor58一人所制作的一款《Minecraft》、《植物大战僵尸》和《东方Project》系列的同人游戏。本站提供MVZ2各原版和改版的官方链接、下载链接和官方群的链接。",
@@ -122,7 +122,8 @@
         "name": "3版/3g版[GMS]",
         "links": [
           { "text": "官方改版群（1077607284）", "href": "https://qm.qq.com/q/AWcFeEUwEg" },
-          { "text": "官方聊天群（1077607284）", "href": "https://qm.qq.com/q/dMUiGtpYKA" }
+          { "text": "官方聊天群（1077607284）", "href": "https://qm.qq.com/q/dMUiGtpYKA" },
+          { "text": "B站(荒神三月春风)", "href": "https://space.bilibili.com/670539888"}
         ],
         "note": "有移植版*"
       },
@@ -179,7 +180,7 @@
         "note": "已停更，最终版本0.6beta1；有官方Android版本"
       },
       {
-        "name": "共辉版改版[GMS]",
+        "name": "共辉(Mubr)版改版[GMS]",
         "links": [
           { "text": "官方群", "href": "https://qun.qq.com/universal-share/share?ac=1&authKey=ckrH%2F3Bg%2F8hNNLbUecvLlfznvvkS2%2F6%2Fau26lNytIAqAoviEi2itTFKfXQ1VctPx&busi_data=eyJncm91cENvZGUiOiIxMDUzNDk1MjE4IiwidG9rZW4iOiI3ZjBkTFNGaDlRL1ZJU3o5RGpBOFl6MnRGenhFdFlpTVNCZ2tveHgxcUU0NFBtS2RMS21WMlY1ejZuOVZXUFhoIiwidWluIjoiMjk4MDA3NzU0NCJ9&data=TXqMeJTNIk9fxX1nQGAfSA9cdSW3h7NybeymVidtZTgzjPUzi0vWqkVfX5SlPqPo050m2lWHxB17HY8whotsBA&svctype=4&tempid=h5_group_info" },
           { "text": "B站(黑导游戏)", "href": "https://space.bilibili.com/474509572" }
@@ -277,7 +278,7 @@
         "extra_text": "待作者妥善处置后再行补充更多信息"
       },
       {
-        "name": "坚守版(BM)改版[GMS]",
+        "name": "坚守版(BM/BH)改版[GMS]",
         "links": [
           { "text": "官方群(1057609248)", "href": "https://qun.qq.com/universal-share/share?ac=1&authKey=9kJbmbWukI%2BK2NH5RM24wJo2FfgtC9fpG6d3bx5cBhVTPHFxJb2CcHk%2F%2FhePMOUI&busi_data=eyJncm91cENvZGUiOiIxMDU3NjA5MjQ4IiwidG9rZW4iOiJDTmN6aThUQ3VkTFBHTXlQTEFWTVpWUTh3L2d2V1d0Rll0cUZid2grRTFpRE5sVXl1dmNBNldobDBvMFI0Yi8yIiwidWluIjoiMjk4MDA3NzU0NCJ9&data=B5p-TwE0Eg_VCJOLsfJm2i3PWSaVCTbNVjckcX1b4GroSPwjoRFKH8z_OtM9T2K-twL5nozjAI1cZRy0WhUNiQ&svctype=4&tempid=h5_group_info" },
           { "text": "B站(天蝎组织の村纱水蜜)", "href": "https://space.bilibili.com/1704840607" }
