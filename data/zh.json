@@ -128,7 +128,7 @@
         "note": "有移植版*"
       },
       {
-        "name": "BA版(Different Previous Memories)改版[GMS]",
+        "name": "BA版改版[GMS]",
         "links": [
           { "text": "官方群", "href": "https://qm.qq.com/q/cbrGwlDarS" }
         ],
@@ -218,11 +218,15 @@
         "links_text_only": false
       },
       {
-        "name": "鸭子(Duck)改版[Unity]",
+        "name": "鸭子版(Duck)改版[Unity]",
         "links": [
-          { "text": "谷歌云盘[大陆地区无法访问]", "href": "https://drive.google.com/file/d/1LyN0r_JZAhpOzjaMdB-FxK0XzlopOCi_"}
+          { "text": "官方1群(1083083369)", "href":"https://qun.qq.com/universal-share/share?ac=1&authKey=6tcrwakzvOb2lSQaXRo3eMP43H8AO1l6Gds3NToDiHRc%2BBJTsdkEFED2WQ0I7ti5&busi_data=eyJncm91cENvZGUiOiIxMDgzMDgzMzY5IiwidG9rZW4iOiIza1JyZERLUkIrSnlGZ1lmMEM0emM0dmdZQnd2WWNsTklsTFVxMFNhaWZ0WnNrYkJVRGY5YzlnMWVodmZnNFFqIiwidWluIjoiMjk4MDA3NzU0NCJ9&data=KO7NdZgEt9GCfgqzIp1dAdEk1TW6s4CiX9WxNeW--YXgJjt23fTmIxSHOgoD-xT_HI-kmTTXbvory1Q1JJKbXw&svctype=4&tempid=h5_group_info"},
+          { "text": "官方2群(1105517439)", "href":"https://qun.qq.com/universal-share/share?ac=1&authKey=vrfnd0ByFv9L3Gtkemp76kKVCmp81wNU%2BTrwQY6YOo0occIcmarWuq8%2BNaXotBux&busi_data=eyJncm91cENvZGUiOiIxMTA1NTE3NDM5IiwidG9rZW4iOiJ1eDNqOVA1RlFZTHVoeHB2eFdUeXNNVVNYMHB5eWladm94OWxnWXQ3U3Iyc1pxVGtCTkU0U2c1Uk94RFg1T0FTIiwidWluIjoiMjk4MDA3NzU0NCJ9&data=OJaWre6nFCKxUsOzKD75eEtGKUFBG0M74BsDiYqZne_RG749WU1KoGeimuHLiSdTefIiWLfk3RMbytIir7MwIg&svctype=4&tempid=h5_group_info"},
+          { "text": "夸克网盘(乐乐鸭子)", "href":"https://pan.quark.cn/s/b62b3cde75cd?pwd=cEfx"},
+          { "text": "谷歌云盘[大陆地区无法访问]", "href": "https://drive.google.com/file/d/1LyN0r_JZAhpOzjaMdB-FxK0XzlopOCi_"},
+          { "text": "B站(乐乐鸭子)", "href": "https://space.bilibili.com/493442501"}
         ],
-        "note": "外国作者 ahiru_rs；有官方 Android 版本",
+        "note": "有官方 Android 版本",
         "links_text_only": false
       },
       {
