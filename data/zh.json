@@ -136,13 +136,14 @@
         "note": "已停更，正在转用Unity重置；有移植版*"
       },
       {
-        "name": "梗体中文改版[Flash/Unity/Godot]",
+        "name": "梗体中文改版/同人游戏[Unity/Godot]",
         "links": [
+          { "text": "官网", "href": "https://lastzatingofficial.netlify.app/" },
           { "text": "官方群（965643736）", "href": "https://qun.qq.com/universal-share/share?ac=1&authKey=fwiWSFSbyrVujTIgFlIDbYTEN1wyRqxLQI8I9wMohzReK0gAtbf%2F%2B2zgYJWm79eL&busi_data=eyJncm91cENvZGUiOiI5NjU2NDM3MzYiLCJ0b2tlbiI6IlhNa0RvVnNuczY0OEpLdm8yU2hIeDdTc0l0L1R3Q0lMNHlhVnRURFpiRWFmKzlzalJxODhkOVJMUHZrbWZ4bzUiLCJ1aW4iOiIyOTgwMDc3NTQ0In0%3D&data=i-JDN0q58R-fGXx_UULp0zPkPD_l0JDHViPEjct1RPfy1psdX3BqPghnLbJsDhfyc36YNG74Gu4mAR8nwcw-tg&svctype=4&tempid=h5_group_info" },
           { "text": "B站(lastzating6工作室)", "href": "https://space.bilibili.com/3546843552155715" },
           { "text": "Wiki", "href": "https://wiki.genouka.top/mvz2%E6%A2%97%E4%BD%93%E4%B8%AD%E6%96%87" }
         ],
-        "note": "有官方Android版本"
+        "note": "有官方Android版本，2个版本，分为U版（Unity版）和G版（Godot版）"
       },
       {
         "name": "ExtraMode(Unity)(EXU)改版[Unity]",
