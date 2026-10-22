@@ -7,6 +7,7 @@
     python tool/gen.py --check  # 检查生成的文件是否与源文件一致
 """
 
+import io
 import json
 import os
 import shutil
@@ -87,7 +88,8 @@ def render_table(headers, rows):
   </table>"""
 
 
-def generate_index_zh(data):
+def generate_index_zh(data, json_href=""):
+
     d = data
     meta = d["meta"]
     header = d["header"]
@@ -172,6 +174,7 @@ a {{
 }}
 </style>
 <title>{meta["title"]}</title>
+{f'<link rel="alternate" type="application/json" href="{json_href}">' if json_href else ""}
 <div style="display:none"><p>{header["description"]}</p></div>
 <center>
 <h1><img src="{meta["logo_img"]}" alt="{meta["logo_alt"]}" style="max-width: 100%;max-height: 30vh;"><br>{header["heading"]}</h1>
@@ -223,7 +226,8 @@ a {{
     return html
 
 
-def generate_index_en(data):
+def generate_index_en(data, json_href=""):
+
     d = data
     meta = d["meta"]
     header = d["header"]
@@ -307,6 +311,7 @@ a {{
 }}
 </style>
 <title>{meta["title"]}</title>
+{f'<link rel="alternate" type="application/json" href="{json_href}">' if json_href else ""}
 <div style="display:none"><p>{header["description"]}</p></div>
 <center>
 <h1><img src="{meta["logo_img"]}" alt="{meta["logo_alt"]}" style="max-width: 100%;max-height: 30vh;"><br>{header["heading"]}</h1>
@@ -358,7 +363,8 @@ a {{
     return html
 
 
-def generate_gaming_guide(data):
+def generate_gaming_guide(data, json_href=""):
+
     d = data
     meta = d["meta"]
     header = d["header"]
@@ -404,6 +410,7 @@ a {{
 }}
 </style>
 <title>{meta["title"]}</title>
+{f'<link rel="alternate" type="application/json" href="{json_href}">' if json_href else ""}
 <center>
 <a href="{header["breadcrumb"]["href"]}">{header["breadcrumb"]["text"]}</a> &gt;&gt; {header["breadcrumb_current"]}<br>
 <span style="color:red">{header["construction_notice"]}</span><br>
@@ -431,7 +438,8 @@ a {{
     return html
 
 
-def generate_contributing(data):
+def generate_contributing(data, json_href=""):
+
     d = data
     meta = d["meta"]
     header = d["header"]
@@ -496,6 +504,7 @@ pre {{
 }}
 </style>
 <title>{meta["title"]}</title>
+{f'<link rel="alternate" type="application/json" href="{json_href}">' if json_href else ""}
 <center>
 <a href="{header["breadcrumb"]["href"]}">{header["breadcrumb"]["text"]}</a><br>
 <h1>{header["heading"]}</h1>
@@ -510,12 +519,56 @@ pre {{
     return html
 
 
+# 站点清单文件名，包含所有页面的 HTML/JSON 路径，便于客户端发现和接入
+MANIFEST_NAME = "manifest.json"
+
+
+def json_path_for(output_path):
+    """页面 HTML 输出路径对应的 JSON 输出路径（同目录同名，仅扩展名不同）。"""
+    assert output_path.endswith(".html")
+    return output_path[:-5] + ".json"
+
+
+def to_url_path(path):
+    """将文件系统路径转换为 URL 风格的相对路径（使用正斜杠）。"""
+    return path.replace(os.sep, "/")
+
+
 PAGES = [
     ("data/zh.json", "index.html", generate_index_zh),
     ("data/en.json", "en/index.html", generate_index_en),
     ("data/gaming_guide.json", "gaming_guide.html", generate_gaming_guide),
     ("data/contributing.json", "contributing.html", generate_contributing),
 ]
+
+
+def build_manifest(entries):
+    buf = io.StringIO()
+    json.dump({"pages": entries}, buf, ensure_ascii=False, indent=2)
+    buf.write("\n")
+    return buf.getvalue()
+
+
+def check_output(output_path, full_output_path, content, all_ok):
+    if os.path.exists(full_output_path):
+        with open(full_output_path, "r", encoding="utf-8") as f:
+            existing = f.read()
+        if existing == content:
+            print(f"  OK: {output_path}")
+        else:
+            print(f"  DIFF: {output_path} (needs regeneration)")
+            all_ok = False
+    else:
+        print(f"  MISSING: {output_path}")
+        all_ok = False
+    return all_ok
+
+
+def write_output(output_path, full_output_path, content):
+    os.makedirs(os.path.dirname(full_output_path), exist_ok=True)
+    with open(full_output_path, "w", encoding="utf-8") as f:
+        f.write(content)
+    print(f"  Generated: {to_url_path(output_path)}")
 
 
 def generate_all(check_only=False):
@@ -536,30 +589,46 @@ def generate_all(check_only=False):
                 shutil.copy2(src, dst)
                 print(f"  Copied: {asset}")
 
+    manifest = []
+
     for data_path, output_path, generator in PAGES:
         full_data_path = os.path.join(BASE_DIR, data_path)
         full_output_path = os.path.join(OUTPUT_DIR, output_path)
+        json_output = json_path_for(output_path)
+        full_json_path = os.path.join(OUTPUT_DIR, json_output)
 
         data = load_json(full_data_path)
-        html = generator(data)
+        html = generator(data, json_href=os.path.basename(json_output))
+
+        meta = data.get("meta", {})
+        manifest_entry = {
+            "title": meta.get("title"),
+            "language": meta.get("language"),
+            "html": to_url_path(output_path),
+            "json": to_url_path(json_output),
+        }
+        if meta.get("last_updated"):
+            manifest_entry["last_updated"] = meta["last_updated"]
+        manifest.append(manifest_entry)
 
         if check_only:
-            if os.path.exists(full_output_path):
-                with open(full_output_path, "r", encoding="utf-8") as f:
-                    existing = f.read()
-                if existing == html:
-                    print(f"  OK: {output_path}")
-                else:
-                    print(f"  DIFF: {output_path} (needs regeneration)")
-                    all_ok = False
-            else:
-                print(f"  MISSING: {output_path}")
-                all_ok = False
+            all_ok = check_output(output_path, full_output_path, html, all_ok)
+            with open(full_data_path, "r", encoding="utf-8") as f:
+                json_content = f.read()
+            all_ok = check_output(json_output, full_json_path, json_content, all_ok)
         else:
-            os.makedirs(os.path.dirname(full_output_path), exist_ok=True)
-            with open(full_output_path, "w", encoding="utf-8") as f:
-                f.write(html)
-            print(f"  Generated: {output_path}")
+            write_output(output_path, full_output_path, html)
+            # 直接复制源数据 JSON，保证与 data/ 目录内容一致
+            shutil.copyfile(full_data_path, full_json_path)
+            print(f"  Generated: {to_url_path(json_output)}")
+
+    # 生成站点清单
+    manifest_content = build_manifest(manifest)
+    manifest_output = os.path.join(OUTPUT_DIR, MANIFEST_NAME)
+    if check_only:
+        all_ok = check_output(MANIFEST_NAME, manifest_output, manifest_content, all_ok)
+    else:
+        write_output(MANIFEST_NAME, manifest_output, manifest_content)
 
     return all_ok
 
