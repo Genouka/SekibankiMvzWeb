@@ -38,6 +38,29 @@ UMAMI_TRACKER = """<script type="text/javascript">
     });
   })();
 </script>"""
+FILTER_SCRIPT = """<script type="text/javascript">
+  (() => {
+    const bar = document.querySelector('.filter-bar');
+    if (!bar) return;
+    const input = bar.querySelector('.filter-input');
+    const count = bar.querySelector('.filter-count');
+    const tables = Array.from(document.querySelectorAll('.table-wrap table'));
+    const rows = tables.flatMap(t => Array.from(t.querySelectorAll('tbody tr')));
+    const update = () => {
+      const q = input.value.trim().toLowerCase();
+      let shown = 0;
+      for (const tr of rows) {
+        const hit = !q || tr.textContent.toLowerCase().includes(q);
+        tr.classList.toggle('no-match', !hit);
+        if (hit) shown++;
+      }
+      if (count) count.textContent = q ? (shown + ' / ' + rows.length) : '';
+    };
+    input.addEventListener('input', update);
+    update();
+  })();
+</script>"""
+
 
 # 所有页面共用的现代样式（浅色/深色自适应）
 PAGE_CSS = """<style>
@@ -85,6 +108,15 @@ hr{ border:none; border-top:1px solid var(--border); margin:1.6em 0; }
 .prose ul, .prose ol{ padding-left:1.4em; }
 code{ background:var(--table-head); padding:2px 6px; border-radius:4px; font-size:.9em; }
 pre{ background:var(--table-head); padding:14px; border-radius:8px; overflow-x:auto; text-align:left; display:inline-block; max-width:90vw; border:1px solid var(--border); }
+.filter-bar{ margin:1.2em 0 1em; display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+.filter-input{
+  flex:1 1 240px; min-width:180px; padding:10px 14px; font-size:.95rem;
+  color:var(--text); background:var(--surface); border:1px solid var(--border);
+  border-radius:8px; outline:none;
+}
+.filter-input:focus{ border-color:var(--accent); box-shadow:0 0 0 3px color-mix(in srgb, var(--accent) 25%, transparent); }
+.filter-count{ font-size:.85rem; color:var(--muted); white-space:nowrap; }
+tr.no-match{ display:none; }
 </style>"""
 
 
@@ -180,6 +212,10 @@ def generate_index_zh(data, json_href=""):
 <p>{header["sub_page"]["label"]}<a href="{header["sub_page"]["href"]}">{header["sub_page"]["text"]}</a></p>
 <p><a href="{header["contributing_link"]["href"]}">{header["contributing_link"]["text"]}</a></p>
 </header>
+<div class="filter-bar">
+  <input class="filter-input" type="search" placeholder="筛选 / Filter…" aria-label="筛选表格">
+  <span class="filter-count"></span>
+</div>
 <h2>{vt["title"]}</h2>
 <div class="table-wrap">
   <table>
@@ -219,6 +255,7 @@ def generate_index_zh(data, json_href=""):
 <p><a href="{footer["github_url"]}">{footer["github_text"]}</a></p>
 </footer>
 </div>
+{FILTER_SCRIPT}
 {UMAMI_SCRIPT}
 {UMAMI_TRACKER}
 """
@@ -301,6 +338,10 @@ def generate_index_en(data, json_href=""):
 <p>{header["sub_page"]["label"]}<a href="{header["sub_page"]["href"]}">{header["sub_page"]["text"]}</a></p>
 <p><a href="{header["contributing_link"]["href"]}">{header["contributing_link"]["text"]}</a></p>
 </header>
+<div class="filter-bar">
+  <input class="filter-input" type="search" placeholder="Filter / 筛选…" aria-label="Filter tables">
+  <span class="filter-count"></span>
+</div>
 <h2>{vt["title"]}</h2>
 <div class="table-wrap">
   <table>
@@ -340,6 +381,7 @@ def generate_index_en(data, json_href=""):
 <p><a href="{footer["github_url"]}">{footer["github_text"]}</a></p>
 </footer>
 </div>
+{FILTER_SCRIPT}
 {UMAMI_SCRIPT}
 {UMAMI_TRACKER}
 """
@@ -381,6 +423,10 @@ def generate_gaming_guide(data, json_href=""):
 <p class="center"><span class="construction">{header["construction_notice"]}</span></p>
 <h1><img class="site-logo" src="{meta["logo_img"]}" alt="{meta["logo_alt"]}"><br>{header["heading"]}</h1>
 <p class="center">最后更新于{meta["last_updated"]}</p>
+<div class="filter-bar">
+  <input class="filter-input" type="search" placeholder="筛选 / Filter…" aria-label="筛选表格">
+  <span class="filter-count"></span>
+</div>
 <div class="table-wrap">
   <table>
     <thead>
@@ -399,6 +445,7 @@ def generate_gaming_guide(data, json_href=""):
 <p {analytics_style}>{footer["analytics_notice"]}</p>
 </footer>
 </div>
+{FILTER_SCRIPT}
 {UMAMI_SCRIPT}
 {UMAMI_TRACKER}
 """
