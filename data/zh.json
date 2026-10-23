@@ -15,6 +15,13 @@
     "sub_page": { "text": "游戏攻略(建设中)", "href": "/gaming_guide.html", "label": "子页面：" },
     "contributing_link": { "text": "贡献指南", "href": "/contributing.html" }
   },
+  "recommend": {
+    "icon": "🚀",
+    "title": "推荐使用 MVZ2启动器 管理你的版本",
+    "text": "一键下载、更新与启动各版本 MVZ2，免去手动找链接的麻烦。",
+    "button": "前往 MVZ2启动器",
+    "href": "https://mvz2launcher.qiumingsanyu.top/"
+  },
   "version_table": {
     "title": "各版本索引表",
     "headers": ["名称", "链接", "备注"],

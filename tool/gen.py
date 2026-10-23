@@ -117,6 +117,22 @@ pre{ background:var(--table-head); padding:14px; border-radius:8px; overflow-x:a
 .filter-input:focus{ border-color:var(--accent); box-shadow:0 0 0 3px color-mix(in srgb, var(--accent) 25%, transparent); }
 .filter-count{ font-size:.85rem; color:var(--muted); white-space:nowrap; }
 tr.no-match{ display:none; }
+.recommend-card{
+  display:flex; align-items:center; gap:14px; flex-wrap:wrap;
+  margin:1.4em 0 1em; padding:16px 18px; border-radius:12px;
+  background:var(--surface); border:1px solid var(--border);
+  border-left:4px solid var(--accent);
+}
+.recommend-card .rc-icon{ font-size:1.6rem; line-height:1; }
+.recommend-card .rc-body{ flex:1 1 240px; min-width:200px; }
+.recommend-card .rc-title{ font-weight:600; margin:0 0 .2em; }
+.recommend-card .rc-text{ margin:0; color:var(--muted); font-size:.95rem; }
+.recommend-card .rc-action{ white-space:nowrap; }
+.recommend-card .rc-btn{
+  display:inline-block; padding:9px 16px; border-radius:8px; font-weight:600;
+  color:#fff; background:var(--accent);
+}
+.recommend-card .rc-btn:hover{ text-decoration:none; filter:brightness(1.08); }
 </style>"""
 
 
@@ -131,6 +147,19 @@ def render_link(link):
 
 def render_links(links):
     return "<br>\n".join(render_link(link) for link in links)
+def render_recommend(recommend):
+    if not recommend:
+        return ""
+    return f"""<div class="recommend-card">
+  <span class="rc-icon">{recommend.get("icon", "💡")}</span>
+  <div class="rc-body">
+    <p class="rc-title">{recommend["title"]}</p>
+    <p class="rc-text">{recommend["text"]}</p>
+  </div>
+  <span class="rc-action"><a class="rc-btn" href="{escape(recommend["href"])}">{recommend["button"]}</a></span>
+</div>
+"""
+
 
 
 def generate_index_zh(data, json_href=""):
@@ -194,6 +223,7 @@ def generate_index_zh(data, json_href=""):
 """
 
     analytics_style = f'style="color:{footer["analytics_color"]}"' if footer.get("analytics_color") else ""
+    recommend = render_recommend(d.get("recommend"))
 
     html = f"""<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="utf-8">
@@ -212,6 +242,7 @@ def generate_index_zh(data, json_href=""):
 <p>{header["sub_page"]["label"]}<a href="{header["sub_page"]["href"]}">{header["sub_page"]["text"]}</a></p>
 <p><a href="{header["contributing_link"]["href"]}">{header["contributing_link"]["text"]}</a></p>
 </header>
+{recommend}
 <div class="filter-bar">
   <input class="filter-input" type="search" placeholder="筛选 / Filter…" aria-label="筛选表格">
   <span class="filter-count"></span>
@@ -320,6 +351,7 @@ def generate_index_en(data, json_href=""):
 """
 
     analytics_style = f'style="color:{footer["analytics_color"]}"' if footer.get("analytics_color") else ""
+    recommend = render_recommend(d.get("recommend"))
 
     html = f"""<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="utf-8">
@@ -338,6 +370,7 @@ def generate_index_en(data, json_href=""):
 <p>{header["sub_page"]["label"]}<a href="{header["sub_page"]["href"]}">{header["sub_page"]["text"]}</a></p>
 <p><a href="{header["contributing_link"]["href"]}">{header["contributing_link"]["text"]}</a></p>
 </header>
+{recommend}
 <div class="filter-bar">
   <input class="filter-input" type="search" placeholder="Filter / 筛选…" aria-label="Filter tables">
   <span class="filter-count"></span>

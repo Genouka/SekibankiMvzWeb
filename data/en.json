@@ -15,6 +15,13 @@
     "sub_page": { "text": "Game Guide (Under Construction) (Chinese only currently)", "href": "/gaming_guide.html", "label": "Sub-page: " },
     "contributing_link": { "text": "Contributing Guide", "href": "/contributing.html" }
   },
+  "recommend": {
+    "icon": "🚀",
+    "title": "Recommended: manage your versions with MVZ2 Launcher",
+    "text": "Download, update and launch any MVZ2 version in one place — no more hunting for links manually.",
+    "button": "Go to MVZ2 Launcher",
+    "href": "https://mvz2launcher.qiumingsanyu.top/"
+  },
   "version_table": {
     "title": "Version Index Table",
     "headers": ["Name", "Links", "Notes"],
